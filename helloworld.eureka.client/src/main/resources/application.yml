@@ -1,0 +1,9 @@
+eureka:
+    client:
+        serviceUrl:
+            defaultZone: http://localhost:8761/eureka/ # 默认服务地址 
+server:
+    port: 8762 # 服务端口 
+spring:
+    application:
+        name: service-helloworld # 设置服务名称 
